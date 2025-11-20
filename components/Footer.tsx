@@ -1,3 +1,5 @@
+'use client';
+
 import React, { useState } from 'react';
 import { Mail, Phone, Linkedin, Twitter, Instagram, ArrowUpRight, CheckCircle, Loader2, AlertCircle } from 'lucide-react';
 

@@ -1,3 +1,5 @@
+'use client';
+
 import React, { useState, useEffect } from 'react';
 import { Menu, X, ChevronRight } from 'lucide-react';
 import { NavLink } from '../types';
@@ -32,7 +34,7 @@ const Navbar: React.FC = () => {
         <div className="flex justify-between items-center h-12">
           {/* Logo */}
           <div className="flex-shrink-0 flex items-center">
-            <a href="#" className="font-serif text-3xl font-bold text-forest tracking-wide">
+            <a href="#home" className="font-serif text-3xl font-bold text-forest tracking-wide">
               QenSalle
             </a>
           </div>
